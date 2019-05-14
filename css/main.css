@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4rem;
+    font-size: 3rem;
+    color: #4592af
+}
+
+#title{
+    text-align: center;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #33313b;
+    color: #fff;
+
+}
+
+#title > .tytul {
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 5vw;
+
+}
+
+#title > .uczen {
+    width: 10vw;
+    text-align: left;
+    padding: 1rem;
+}
+
+[id^="uczen"] {
+    margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tytul,
+[type = "number"] {
+    width: 5vw;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.zajecia-dodatkowe,
+[type = "number"] {
+    font-weight: bold;
+    border: 0.3px solid #33313b;
+    text-transform: uppercase
+}
+
+.zajecia-dodatkowe,
+.uczen {
+    width: 10vw;
+    padding: 1rem;
+}
+
+.uczen {
+    background-color: #33313b;
+    color: #fff;
+}
+
+.srednia {
+    color: #4592af;
+    width: 2vw;
+    font-weight: bold;
+}
+
+
+#oblicz{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #4592af;
+    color: #fff;
+    border: none;
+    display: block;
+    margin: 4rem auto;
+
+    border-bottom: 5px solid #64b7d4;
+    border-right: 5px solid #64b7d4;
+
+    transition: background-color 0.3s;
+}
+
+#oblicz:hover,
+#oblicz:active {
+    background-color: #64b7d4;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
