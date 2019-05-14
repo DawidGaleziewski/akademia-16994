@@ -42,6 +42,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding: 2rem 0;
 }
 
 .tytul,
@@ -70,10 +71,12 @@ h2 {
     color: #fff;
 }
 
-.srednia {
-    color: #4592af;
+[id^="uczen"] .srednia {
     width: 2vw;
     font-weight: bold;
+    width: 5vw;
+    padding: 1rem;
+    text-align: center;
 }
 
 
@@ -99,4 +102,18 @@ h2 {
     background-color: #64b7d4;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+
+/* added by js */
+.extra-curricular-bosted {
+    border-color: #64b7d4;
+}
+
+.prodigy {
+   background-color: #3a9679;
+    
+}
+
+.indanger {
+    background-color: #e16262;
 }
